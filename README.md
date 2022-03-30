@@ -1,1 +1,1 @@
-"# design-patterns-game" 
+# design-patterns-game
