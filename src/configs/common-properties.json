@@ -1,0 +1,8 @@
+{
+    "version": "0.0",
+    "pratica": "7-abstract-facotry",
+    "paths": {
+        "medieval": "medieval-properties.json",
+        "futuristic": "futuristic-properties.json"    
+    }
+}

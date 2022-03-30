@@ -1,0 +1,325 @@
+{
+    "window": {
+        "width": 999,
+        "height": 571
+    },
+    "backgrounds": {
+        "fase1": "./src/images/futuristic1.png",
+        "fase2": "./src/images/futuristic2.png",
+        "fase3": "./src/images/futuristic3.png"
+    },
+    "images": {
+        "characters": {
+            "cyborg": "/images/cyborg.png",
+            "sentinela": "/images/sentinela.png",
+            "android": "/images/android.png",
+            "atirador": "/images/atirador.png",
+            "fuzileiro": "/images/fuzileiro.png"
+        },
+        "ataques": {
+            "special": "/images/special.png",
+            "superchute": "/images/superChute.png",
+            "supersoco": "/images/superSoco.png"
+        }
+    },
+    "ataqueDecorados": {
+        "dimensions": {
+            "w": 50,
+            "h": 50
+        },
+        "posicao": {
+            "x": 25,
+            "y": 0
+        }
+    },
+    "subjects": {
+        "personagem": {
+            "name": "Jogador",
+            "jlabel": {
+                "name": "Vida Jogador",
+                "dimensions": {
+                    "w": 140,
+                    "h": 26
+                },
+                "background": {
+                    "posicao": {
+                        "x": 850,
+                        "y": 2
+                    }
+                },
+                "text": {
+                    "posicao": {
+                        "x": 856,
+                        "y": 21
+                    }
+                }
+            },
+            "posicao": {
+            	"x": 200,
+            	"y": 400
+            },
+            "dimensions": {
+            	"w": 150,
+            	"h": 60
+            }
+        },        
+        "enemys": [
+            {
+                "name": "Robo 1",
+                "image": "/images/enemy1.png",
+                "jlabel": {
+                    "name": "Vida Bot 1",
+	                "dimensions": {
+	                    "w": 140,
+	                    "h": 26
+	                },
+                    "background": {
+                        "posicao": {
+                            "x": 850,
+                            "y": 32
+                        }
+                    },
+                    "text": {
+                        "posicao": {
+                            "x": 856,
+                            "y": 51
+                        }
+                    }
+                },
+                "color": "DARK_GRAY",
+                "posicao": {
+                    "x": 200,
+                    "y": 400
+                },
+                "dimensions": {
+                    "w": 70,
+                    "h": 70
+                }
+            },
+            {
+                "name": "Robo 2",
+                "image": "/images/enemy2.png",
+                "jlabel": {
+                    "name": "Vida Bot 2",
+	                "dimensions": {
+	                    "w": 140,
+	                    "h": 26
+	                },
+                    "background": {
+                        "posicao": {
+                            "x": 850,
+                            "y": 62
+                        }
+                    },
+                    "text": {
+                        "posicao": {
+                            "x": 856,
+                            "y": 81
+                        }
+                    }
+                },
+                "color": "BLUE",
+                "posicao": {
+                    "x": 450,
+                    "y": 10
+                },
+                "dimensions": {
+                    "w": 70,
+                    "h": 70
+                }
+            },
+            {
+                "name": "Robo 3",
+                "image": "/images/enemy3.png",
+                "jlabel": {
+                    "name": "Vida Bot 3",
+	                "dimensions": {
+	                    "w": 140,
+	                    "h": 26
+	                },
+                    "background": {
+                        "posicao": {
+                            "x": 850,
+                            "y": 92
+                        }
+                    },
+                    "text": {
+                        "posicao": {
+                            "x": 856,
+                            "y": 111
+                        }
+                    }
+                },
+                "color": "CYAN",
+                "posicao": {
+                    "x": 150,
+                    "y": 50
+                },
+                "dimensions": {
+                    "w": 70,
+                    "h": 70
+                }
+            },
+            {
+                "name": "Robo 4",
+                "image": "/images/enemy3.png",
+                "jlabel": {
+                    "name": "Vida Bot 4",
+	                "dimensions": {
+	                    "w": 140,
+	                    "h": 26
+	                },
+                    "background": {
+                        "posicao": {
+                            "x": 850,
+                            "y": 122
+                        }
+                    },
+                    "text": {
+                        "posicao": {
+                            "x": 856,
+                            "y": 141
+                        }
+                    }
+                },
+                "color": "MAGENTA",
+                "posicao": {
+                    "x": 100,
+                    "y": 300
+                },
+                "dimensions": {
+                    "w": 70,
+                    "h": 70
+                }
+            },
+            {
+                "name": "Robo 5",
+                "image": "/images/enemy3.png",
+                "jlabel": {
+                    "name": "Vida Bot 5",
+	                "dimensions": {
+	                    "w": 140,
+	                    "h": 26
+	                },
+                    "background": {
+                        "posicao": {
+                            "x": 850,
+                            "y": 152
+                        }
+                    },
+                    "text": {
+                        "posicao": {
+                            "x": 856,
+                            "y": 171
+                        }
+                    }
+                },
+                "color": "PINK",
+                "posicao": {
+                    "x": 150,
+                    "y": 270
+                },
+                "dimensions": {
+                    "w": 70,
+                    "h": 70
+                }
+            },
+            {
+                "name": "Robo 6",
+                "image": "/images/enemy3.png",
+                "jlabel": {
+                    "name": "Vida Bot 6",
+	                "dimensions": {
+	                    "w": 140,
+	                    "h": 26
+	                },
+                    "background": {
+                        "posicao": {
+                            "x": 850,
+                            "y": 182
+                        }
+                    },
+                    "text": {
+                        "posicao": {
+                            "x": 856,
+                            "y": 201
+                        }
+                    }
+                },
+                "color": "ORANGE",
+                "posicao": {
+                    "x": 370,
+                    "y": 370
+                },
+                "dimensions": {
+                    "w": 70,
+                    "h": 70
+                }
+            },
+            {
+                "name": "Robo 7",
+                "image": "/images/enemy1.png",
+                "jlabel": {
+                    "name": "Vida Bot 7",
+	                "dimensions": {
+	                    "w": 140,
+	                    "h": 26
+	                },
+                    "background": {
+                        "posicao": {
+                            "x": 850,
+                            "y": 152
+                        }
+                    },
+                    "text": {
+                        "posicao": {
+                            "x": 856,
+                            "y": 171
+                        }
+                    }
+                },
+                "color": "GREEN",
+                "posicao": {
+                    "x": 150,
+                    "y": 400
+                },
+                "dimensions": {
+                    "w": 70,
+                    "h": 70
+                }
+            },
+            {
+                "name": "Robo 8",
+                "image": "/images/enemy2.png",
+                "jlabel": {
+                    "name": "Vida Bot 8",
+	                "dimensions": {
+	                    "w": 140,
+	                    "h": 26
+	                },
+                    "background": {
+                        "posicao": {
+                            "x": 850,
+                            "y": 182
+                        }
+                    },
+                    "text": {
+                        "posicao": {
+                            "x": 856,
+                            "y": 201
+                        }
+                    }
+                },
+                "color": "GRAY",
+                "posicao": {
+                    "x": 500,
+                    "y": 0
+                },
+                "dimensions": {
+                    "w": 70,
+                    "h": 70
+                }
+            }
+        ]
+    }
+}
